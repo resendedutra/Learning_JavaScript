@@ -1,2 +1,10 @@
 Criar repositório no PC: git init
 Conectar o repositório do PC ao github: git remote add origin git@github.com:resendedutra/<nome do repositório no github>.git
+Prepara alteções feitas p/ serem incluídas no próximo commit: git add .
+Salva as alterações feitas no PC: git commit -m "<mensagem sobre a atualização do arquivo/projeto>"
+Salva as alterações feitas no git: git push origin main
+
+Pega as mudanças no github para PC: git pull origin main
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
