@@ -1,0 +1,2 @@
+Criar repositório no PC: git init
+Conectar o repositório do PC ao github: git remote add origin git@github.com:resendedutra/<nome do repositório no github>.git
