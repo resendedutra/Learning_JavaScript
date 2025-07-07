@@ -13,3 +13,5 @@ console.log(s.length); // length é uma propriedade/atributo que conta o nº de 
 console.log(s.toUpperCase()); //.toUpperCase é uma função/método deixa tudo maiúsculo
 console.log(s.toLowerCase()); //.toLowerCase é uma função/método deixa tudo minúsculo
 console.log(s.substring(4, 10)); //.substring é uma função/método captura parte de um texto
+console.log(s.split(' '));
+console.log(s.split(''))
