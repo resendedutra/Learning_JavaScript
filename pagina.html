@@ -6,30 +6,51 @@
     <title>JS para Iniciantes</title>
 </head>
 <body>
+    
     <header>
-        <h1>JS para Iniciantes</h1>
+        <h1 id="titulo">JS para Iniciantes</h1>
     </header>
-    <section>
-        <form>
+    
+    <section class="container">
+        
+        <form id="meu_formulario">
+            
             <h1>Adicionar Usuário</h1>
+            
             <div class="mensagem"></div>
+            
             <div>
+                
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome">
+                
                 <div>
                     <label for="email">Email:</label>
                     <input type="text" id="email">
                 </div>
+                
                 <input type="submit" class="botao" value="Enviar">
             </div>
+        
         </form>
+        
         <ul id="usuarios"></ul>
+        
         <ul class="itens">
+            
             <li class="item">Item 1</li>
             <li class="item">Item 2</li>
             <li class="item">Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        
         </ul>
+    
     </section>
-    <script src="programa.js"></script>
+    
+    <script src="selecionarobjetos.js"></script>
+    <script src="manipulardom.js"></script>
+    <script src="eventos.js"></script>
+
 </body>
 </html>
