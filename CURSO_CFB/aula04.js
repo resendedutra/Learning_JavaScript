@@ -1,13 +1,18 @@
 // Operadores matemáticos
 
-/* São eles:
+/*
+
+São eles:
 + adição
 - subtração
 * multiplicação
 / divisão
-% resto da divisão
-++ ou += incremento
--- ou -= decremento
+% resto da divisão ou mod
+++ ou += incremento (+=1 ou +=2....)
+-- ou -= decremento (-=1 ou -=2....)
+*=
+/=
+
 */
 
 let num1 = 0, num2 = 0
@@ -30,3 +35,6 @@ console.log("Resultado da divisão: ", res4)
 console.log("Resultado do resto da divisão: ", res5)
 console.log("Resultado do incremento: ", num1)
 console.log("Resultado do decremento: ", num2)
+console.log("Resultado da expressão matemática: ", (num1 + num2)*2)
+console.log("Resultado da expressão matemática: ", num1 + num2*2)
+console.log("Resultado da expressão matemática: ", (num1 + num2)%2)
